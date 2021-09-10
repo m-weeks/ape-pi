@@ -1,0 +1,31 @@
+{
+  "name": "ape-pi",
+  "version": "1.0.0",
+  "description": "Bonzi Buddy Voice API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "devstart": "nodemon ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m-weeks/ape-pi.git"
+  },
+  "author": "Matt Weeks",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/m-weeks/ape-pi/issues"
+  },
+  "homepage": "https://github.com/m-weeks/ape-pi#readme",
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-validator": "^6.12.1",
+    "morgan": "~1.9.1",
+    "temp": "^0.9.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
